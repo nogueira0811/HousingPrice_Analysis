@@ -1,4 +1,4 @@
-# House Price Analysis in the Reno Sparks area
+# House Price Analysis in the Reno—Sparks area
 This project analyzes a dataset of over 29,000 real estate transactions in Washoe County and surrounding areas over the last 7 years. The goal is to identify current trends in the housing market.
 
 ## Main Objectives
