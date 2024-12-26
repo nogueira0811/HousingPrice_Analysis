@@ -1,21 +1,30 @@
-# Housing Price Analysis in the Reno–Tahoe Area
+# Housing Price Analysis in the Reno-Tahoe Area
 
-This project intends to uncover housing trends in the Reno–Sparks area by analizing over 26,000 real state transactions in Washoe County. 
+This project analyzes over 26,000 real estate transactions in Washoe County to uncover trends and key factors influencing the local housing market.
 
-### Introduction
-The project uses a real state dataset obtain from web scrapping realtor websites like Zillow and Realtor with information spanning the last 7 years. 
+## Objectives
+- Identify price trends (quarterly and seasonal).
+- Analyze price distribution (average, min, max).
+- Build models to predict housing prices.
 
-### Features
-- Used Python to analyze price trends, seasonality and quarterly changes.
-- Studied price distribution across neighborhoods (lowest, highest, average) and property count.
-- Applied predictive modeling to identify key factors influencing prices.
+## Key Questions
+- What factors influence housing prices?
+- What are average home prices by city or neighborhood?
+- Are housing prices increasing or decreasing over the last 5 years?
 
-### Questions to answer
-- Finding which parameters have the biggest impact on determining house prices
-- Finding mean home prices per city/neighbourhoods
-- Analize the trend in house prices over the last 5 years. Are prices increasing or decreasing?
+## Data
+26,000+ real estate transactions, including:
+- Price, date of sale, square footage, location, and property features (e.g., bedrooms, bathrooms).
 
----
+## Methodology
+1. **Data Preprocessing**: Cleaned data and created new features.
+2. **EDA**: Analyzed trends, seasonality, and price distribution.
+3. **Modeling**: Built machine learning models to predict prices and identify key factors.
+4. **Evaluation**: Assessed model performance using R-squared and Mean Absolute Error.
 
-### Conclusion and final report summary
-![Housing Price Analysis Dashboard](https://github.com/user-attachments/assets/d58bd71a-6e84-48bf-bf7a-2b53f88da905)
+## Conclusion
+- **Key Drivers**: Square footage and location are the most significant factors.
+- **Price Trends**: Prices show seasonal fluctuations, with certain trends across quarters.
+- **Predictive Models**: Built models that predict prices accurately based on key features.
+
+![Housing Price Analysis Dashboard](https://github.com/user-attachments/assets/4e68d37c-b378-4061-ab3c-833e1a1c0e46)
