@@ -11,7 +11,7 @@ This project analyzes over 26,000 real estate transactions in Washoe County to u
 ---
 
 ## Conclusion
-- Prices show few seasonal changes and tend to increase over time.
+- Prices show seasonal changes but overall tend to increase over time.
 - Given the analysis, cities with the highest median housing prices include Incline Village ($1,500,000), Glenbrook ($1,490,000) and Zephyr Cove ($1,092,500). While the lowest median housing prices are found in Carson City ($376,000), Sun Valley ($380,000) and Gardnerville ($445,000).
 - Given the predictive model, the variables 'sqft', 'year_built' and 'city' have the biggest impact on determining housing prices. 
 
