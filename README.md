@@ -1,30 +1,20 @@
 # Housing Price Analysis in the Reno-Tahoe Area
 
-This project analyzes over 26,000 real estate transactions in Washoe County to uncover trends and key factors influencing the local housing market.
+## Overview
+This project analyzes over 26,000 real estate transactions in Washoe County to uncover trends and key factors influencing the local housing market. The dataset includes parameters such as sold price, date of sale, sqft, location and property features (e.g., bedrooms, bathrooms).
 
-## Objectives
-- Identify price trends (quarterly and seasonal).
-- Analyze price distribution (average, min, max).
-- Build models to predict housing prices.
+### Main Objectives
+- Identify price trends over time.
+- Analyze price distributions and obtain key metrics such as median, mean, mode and  min, max prices per city. 
+- Obtain which parameters have the most effect on determining prices. 
 
-## Key Questions
-- What factors influence housing prices?
-- What are average home prices by city or neighborhood?
-- Are housing prices increasing or decreasing over the last 5 years?
-
-## Data
-26,000+ real estate transactions, including:
-- Price, date of sale, square footage, location, and property features (e.g., bedrooms, bathrooms).
-
-## Methodology
-1. **Data Preprocessing**: Cleaned data and created new features.
-2. **EDA**: Analyzed trends, seasonality, and price distribution.
-3. **Modeling**: Built machine learning models to predict prices and identify key factors.
-4. **Evaluation**: Assessed model performance using R-squared and Mean Absolute Error.
+---
 
 ## Conclusion
-- **Key Drivers**: Square footage and location are the most significant factors.
-- **Price Trends**: Prices show seasonal fluctuations, with certain trends across quarters.
-- **Predictive Models**: Built models that predict prices accurately based on key features.
+- Prices show few seasonal changes and tend to increase over time.
+- Given the analysis, cities with the highest median housing prices include Incline Village ($1,500,000), Glenbrook ($1,490,000) and Zephyr Cove ($1,092,500). While the lowest median housing prices are found in Carson City ($376,000), Sun Valley ($380,000) and Gardnerville ($445,000).
+- Given the predictive model, the variables 'sqft', 'year_built' and 'city' have the biggest impact on determining housing prices. 
 
 ![Housing Price Analysis Dashboard](https://github.com/user-attachments/assets/4e68d37c-b378-4061-ab3c-833e1a1c0e46)
+
+![distribution_housing_prices](https://github.com/user-attachments/assets/6814b45a-5624-487e-96e6-c671694556d2)
