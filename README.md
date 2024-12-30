@@ -1,20 +1,65 @@
-# Housing Price Analysis in the Reno-Tahoe Area
+# Housing Price Analysis in the Reno–Tahoe Area
 
-## Overview
-This project analyzes over 26,000 real estate transactions in Washoe County to uncover trends and key factors influencing the local housing market. The dataset includes parameters such as sold price, date of sale, sqft, location and property features (e.g., bedrooms, bathrooms).
-
-### Main Objectives
-- Identify price trends over time.
-- Analyze price distributions and obtain key metrics such as median, mean, mode and  min, max prices per city. 
-- Obtain which parameters have the most effect on determining prices. 
+## 1. Introduction and Overview
+- **Project Objective**:  
+  This project analyzes over 26,000 real estate transactions in Washoe County to uncover trends and key factors influencing the local housing market.  
+- **Dataset Information**:  
+  The dataset includes parameters such as sold price, date of sale, square footage, location, and property features (e.g., number of bedrooms and bathrooms).  
+- **Questions to Address**:  
+  - How have housing prices changed over time?  
+  - What are the key metrics (e.g., median, mean, mode, minimum, and maximum prices) for different cities?  
+  - Which parameters most influence housing prices?  
+- **Tools and Methods**:  
+  - Python was used for data analysis, including trend identification and predictive modeling.  
+  - Tableau dashboards will be used to visually present findings.
 
 ---
 
-## Conclusion
-- Prices show seasonal changes but overall tend to increase over time.
-- Given the analysis, cities with the highest median housing prices include Incline Village ($1,500,000), Glenbrook ($1,490,000) and Zephyr Cove ($1,092,500). While the lowest median housing prices are found in Carson City ($376,000), Sun Valley ($380,000) and Gardnerville ($445,000).
-- Given the predictive model, the variables 'sqft', 'year_built' and 'city' have the biggest impact on determining housing prices. 
+## 2. Data Exploration and Preprocessing
 
-![Housing Price Analysis Dashboard](https://github.com/user-attachments/assets/4e68d37c-b378-4061-ab3c-833e1a1c0e46)
+---
 
-![distribution_housing_prices](https://github.com/user-attachments/assets/6814b45a-5624-487e-96e6-c671694556d2)
+## 3. Analysis and Insights
+
+### Price Trends Over Time
+- Prices exhibit seasonal fluctuations but show an overall upward trend over time.  
+![quarterly_trends](https://github.com/user-attachments/assets/83feb46c-0bd2-4d51-8dc2-fabd3b93f6c1)
+
+### Price Distributions
+- Median housing prices vary significantly between cities:  
+  - **Highest Median Prices**:  
+    - Incline Village: $1,500,000  
+    - Glenbrook: $1,490,000  
+    - Zephyr Cove: $1,092,500  
+  - **Lowest Median Prices**:  
+    - Carson City: $376,000  
+    - Sun Valley: $380,000  
+    - Gardnerville: $445,000  
+![distribution](https://github.com/user-attachments/assets/fcbddcb8-618b-4cc2-af4a-24729128fc7e)
+
+
+### Factors Affecting Housing Prices
+- Predictive modeling identified the following parameters as having the greatest impact on housing prices:  
+  - **Square footage (sqft)**  
+  - **Year built**  
+  - **City**  
+![feature_importance](https://github.com/user-attachments/assets/7f40b80a-5812-478b-b9f8-f24ab8737f85)
+
+---
+
+## 4. Tableau Dashboard
+![Housing Price Analysis Dashboard](https://github.com/user-attachments/assets/19fefe97-6f01-42ce-9329-76a77a9bcbef)
+
+---
+
+## 5. Conclusion and Future Work
+- **Summary of Findings**:  
+  - Housing prices show seasonal changes but have increased over time.  
+  - Median housing prices vary greatly by location, with Incline Village, Glenbrook, and Zephyr Cove leading, and Carson City, Sun Valley, and Gardnerville lagging.  
+  - Key determinants of housing prices include square footage, year built, and city.
+
+- **Limitations**:  
+  - The dataset spans only 7 years of data. A longer dataset (e.g., 15 years) would provide a more comprehensive view of long-term trends and help account for broader market cycles, such as the effects of economic recessions or booms.
+
+- **Future Directions**:  
+  - Explore the impact of additional variables such as school districts or proximity to amenities.  
