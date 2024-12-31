@@ -9,20 +9,37 @@
   - How have housing prices changed over time?  
   - What are the key metrics (e.g., median, mean, mode, minimum, and maximum prices) for different cities?  
   - Which parameters most influence housing prices?  
-- **Tools and Methods**:  
-  - Python was used for data analysis, including trend identification and predictive modeling.  
-  - Tableau dashboards will be used to visually present findings.
+- **Tools and Methods**:
+  - Microsoft Excel was used for the cleaning of the dataset.
+  - Python was used for data analysis, including trend identification and predictive modeling.
+  - Tableau dashboards to present findings.
 
 ---
 
 ## 2. Data Exploration and Preprocessing
+
+### Data Cleaning
+- Fixed typos in city names.
+- Removed cities outside Washoe County.
+- Deleted irrelevant columns (e.g., agent contact numbers).
+- Excluded records with missing critical data (e.g., sold price, square footage).
+
+### Data Transformation
+- Standardized date formats.
+- Created new variables (e.g., price per square foot).
+- Encoded categorical variables for analysis.
+
+### Exploratory Data Analysis (EDA)
+- Analyzed price distributions and identified outliers.
+- Explored correlations between price, square footage, and location.
+
 
 ---
 
 ## 3. Analysis and Insights
 
 ### Price Trends Over Time
-- Prices exhibit seasonal fluctuations but show an overall upward trend over time.  
+- Prices show seasonal fluctuations but an overall upward trend over time.  
 ![quarterly_trends](https://github.com/user-attachments/assets/83feb46c-0bd2-4d51-8dc2-fabd3b93f6c1)
 
 ### Price Distributions
