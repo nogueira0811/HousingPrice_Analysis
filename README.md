@@ -1,18 +1,20 @@
 # Housing Price Analysis in the Reno–Tahoe Area
 
 ## 1. Introduction and Overview
-- **Project Objective**:  
-  This project analyzes over 26,000 real estate transactions in Washoe County to uncover trends and key factors influencing the local housing market.  
-- **Dataset Information**:  
-  The dataset includes parameters such as sold price, date of sale, square footage, location, and property features (e.g., number of bedrooms and bathrooms).  
-- **Questions to Address**:  
-  - How have housing prices changed over time?  
-  - What are the key metrics (e.g., median, mean, mode, minimum, and maximum prices) for different cities?  
-  - Which parameters most influence housing prices?  
-- **Tools and Methods**:
-  - Microsoft Excel was used for the cleaning of the dataset.
-  - Python was used for data analysis, including trend identification and predictive modeling.
-  - Tableau dashboards to present findings.
+The purpose of this project is to analyze and report on the current state of the housing market in the Reno-Tahoe area, which includes Washoe County, Douglas County, and the city of Carson in northern Nevada. This analysis will be particularly useful for prospective investors and homebuyers new to the area, providing them with a clear understanding of the local market dynamics.
+
+- **Dataset**:
+
+The primary dataset was extracted from public real estate websites, such as Zillow and Realtor, encompassing over 26,000 real estate transactions spanning the last 7 years. It includes parameters such as sold price, date of sale, square footage, location and property features (e.g., number of bedrooms and bathrooms). 
+
+- **Questions to Address**:
+ 
+The main questions I seek to answer are:
+
+* How have housing prices changed over time?
+* Which factors have the greatest impact on housing prices?
+
+As well as obtaining other metrics to help the reader better understand the state of the local market. 
 
 ---
 
@@ -20,23 +22,24 @@
 
 ### Data Cleaning
 - Fixed typos in city names.
-- Removed cities outside Washoe County.
+- Removed cities outside the study area. 
 - Deleted irrelevant columns (e.g., agent contact numbers).
 - Excluded records with missing critical data (e.g., sold price, square footage).
 
-### Data Transformation
+### Data Preprocessing
 - Standardized date formats.
-- Created new variables (e.g., price per square foot).
+- Created and calculated new variables (e.g., price per square foot, total number of bathrooms).
 - Encoded categorical variables for analysis.
-
-### Exploratory Data Analysis (EDA)
-- Analyzed price distributions and identified outliers.
-- Explored correlations between price, square footage, and location.
-
 
 ---
 
 ## 3. Analysis and Insights
+
+### Exploratory Data Analysis (EDA)
+- Analyzed price distributions and identified outliers.
+- Explored correlations between price, square footage, and location.
+- Analyzed quarterly trends in housing prices.
+- Examined market fluctuations based on location and property features.
 
 ### Price Trends Over Time
 - Prices show seasonal fluctuations but an overall upward trend over time.  
