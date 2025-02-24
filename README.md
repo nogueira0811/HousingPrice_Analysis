@@ -18,7 +18,7 @@ As well as obtaining other metrics to help the reader better understand the stat
 
 ---
 
-## 2. Data Exploration and Preprocessing
+## 2. Data Cleaning and Preprocessing
 
 ### Data Cleaning
 - Fixed typos in city names.
@@ -33,7 +33,7 @@ As well as obtaining other metrics to help the reader better understand the stat
 
 ---
 
-## 3. Analysis and Insights
+## 3. Analysis
 
 ### Exploratory Data Analysis (EDA)
 - Analyzed price distributions and identified outliers.
