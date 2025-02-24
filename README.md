@@ -1,7 +1,7 @@
 # Housing Price Analysis in the Reno–Tahoe Area
 
 ## 1. Overview
-The purpose of this project is to analyze and report on the current state of the housing market in the Reno-Tahoe area, which includes Washoe County, Douglas County, and the city of Carson in northern Nevada. This analysis will be particularly useful for prospective investors and homebuyers new to the area, providing them with a clear understanding of the local market dynamics.
+The purpose of this project is to analyze and report on the current state of the housing market in the Reno-Tahoe area, which includes Washoe County, Douglas County, and the city of Carson in Northern Nevada. This analysis will be particularly useful for prospective investors and homebuyers new to the area, providing them with a clear understanding of the local market dynamics.
 
 - **Dataset**:
 
