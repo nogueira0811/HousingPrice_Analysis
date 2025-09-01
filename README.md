@@ -75,7 +75,7 @@ As well as obtaining other metrics to help the reader better understand the stat
 ## 5. Conclusion and Future Work
 - **Summary of Findings**:  
   - Housing prices show seasonal changes but have increased over time.  
-  - Median housing prices vary greatly by location, with Incline Village, Glenbrook, and Zephyr Cove leading, and Carson City, Sun Valley, and Gardnerville lagging.  
+  - Median housing prices vary greatly by location, with Incline Village, Glenbrook and Zephyr Cove leading and Carson City, Sun Valley and Gardnerville lagging.  
   - Key determinants of housing prices include square footage, year built, and city.
 
 - **Limitations**:  
